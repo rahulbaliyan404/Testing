@@ -67,6 +67,10 @@
 	function loadLoginData() {
 		var userName = $('#userName').val();
 		var userPassword = $('#userPassword').val();
+		
+		console.log(userName);
+		console.log(userPassword);
+		
 		//var url = "${pageContext.request.contextPath}/getLoggedIn.html";
 		var jsondata = {};
 		jsondata.userName = userName;
